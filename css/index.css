@@ -27,6 +27,7 @@
 }
 
 body {
+    font-family: 'Lato';
     background: var(--background-color);
     background: radial-gradient(circle, var(--background-color) 75%, rgba(255, 111, 97, 1) 100%);
     overflow-x: hidden;
@@ -114,6 +115,7 @@ body {
 }
 
 .section-head {
+    font-family: 'Roboto';
     color: var(--primary-color);
 }
 
@@ -126,6 +128,10 @@ body {
 
 .card:hover {
     box-shadow: 0 12px 32px rgba(255, 111, 97, 0.2);
+}
+
+.card-title {
+    font-family: 'Roboto';
 }
 
 #technologies-section {
